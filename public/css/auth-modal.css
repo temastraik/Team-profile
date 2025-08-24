@@ -1,0 +1,111 @@
+/* Стили для модального окна авторизации */
+.form-container {
+    padding: 30px;
+    position: relative;
+    background: #f8f9fa;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.form-container .form-group {
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+    font-weight: 500;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #dee2e6;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #000;
+    background: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.form-container input:focus {
+    outline: none;
+    border-color: #1a56db;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #1a56db 0%, #1e40af 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.form-container button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #1e40af 0%, #1a56db 100%);
+}
+
+.form-container button:active {
+    transform: translateY(0);
+}
+
+.form-container .switch-form {
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+}
+
+.form-container .switch-form a {
+    color: #1a56db;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.form-container .switch-form a:hover {
+    text-decoration: underline;
+    color: #1e40af;
+}
+
+.form-container .message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.form-container .success {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    border: 1px solid #badbcc;
+}
+
+.form-container .error {
+    background-color: #f8d7da;
+    color: #842029;
+    border: 1px solid #f5c2c7;
+}
+
+.form-container .hidden {
+    display: none;
+}
+
+.form-container .loading {
+    text-align: center;
+    padding: 10px;
+    color: #000;
+}
